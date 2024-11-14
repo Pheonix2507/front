@@ -1,6 +1,6 @@
 document.getElementById('fetchMessage').addEventListener('click', async () => {
   try {
-    const response = await fetch('https://checker-j3o3.onrender.com');  // Replace with your Render backend URL
+    const response = await fetch('https://back-088l.onrender.com');  // Replace with your Render backend URL
     const data = await response.json();
     document.getElementById('message').textContent = data.message;
   } catch (error) {
